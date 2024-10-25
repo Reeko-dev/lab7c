@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 5</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+        <div>
+            <form action="#"method="post">
+                <label for="name">nombre</label>
+                    <input type="text"id="name"name="name"><br><br>
+                <label for="email">Correo electronico</label>
+                    <input type="email"id="email"name="email"><br><br>
+                <label for="celular">Numero telefonico</label>
+                    <input type="number"id="celular"name="celular"><br><br>
+                <label for="date">Fecha de Nacimiento</label>
+                    <input type="date"id="date"name="date"><br><br>
+                <label for="city">Ciudad</label>
+                <select name="city"id="city">    
+                    <option value="Select" selected disabled>Selecciona tu ciudad</option>                 
+                    <option value="Sa">Santa Marta</option>
+                    <option value="Ba">Barranquilla</option>
+                    <option value="Ca">Cartagena</option>
+                    <option value="Va">Valledupar</option>
+                </select><br><br>
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Mensaje" id="Mensaje"></textarea><br>
+                <input type="submit"name=""value="enviar">
+
+            </form> 
+        </div>
+        <h1>FORMULARIO 2</h1>
+        <div>
+            <form action="#"method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    nombre: <br><input type="text"id="name" name="name"required><br>
+                    Contraseña: <br><input type="password"name="password"id="Contraseña" required minlength="8" pattern="[A-Z a-z 0-9]+"><br>
+                    Numero de telefono: <br><input type="number" name="number" id="Numero de telefono" maxlength="10"><br><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+
+</body>
+</html>
